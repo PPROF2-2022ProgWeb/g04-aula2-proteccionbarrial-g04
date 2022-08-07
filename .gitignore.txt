@@ -1,0 +1,4 @@
+/ProteccionBarrial2021/
+/BaseDeDatos/
+/idea/
+/Documento IEEE-830/
