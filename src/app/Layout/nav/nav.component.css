@@ -1,0 +1,23 @@
+nav{
+    font-size: 30px;
+    background-color: gray;
+}
+
+#active{
+    background-color: #272624c6;
+    border-radius: 5px;
+}
+
+li a:hover {
+    background-color: rgb(35, 117, 248);
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}

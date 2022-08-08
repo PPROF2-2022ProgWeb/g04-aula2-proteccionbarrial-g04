@@ -1,23 +1,23 @@
 /* tslint:disable:no-unused-variable */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-import { Component, DebugElement } from '@angular/core';
-import { ContraseniaComponent } from './contrasenia.component';
+import { DebugElement } from '@angular/core';
 
+import { CarritoComponent } from './carrito.component';
 
-describe('ContraseniaComponent', () => {
-  let component: ContraseniaComponent;
-  let fixture: ComponentFixture<ContraseniaComponent>;
+describe('CarritoComponent', () => {
+  let component: CarritoComponent;
+  let fixture: ComponentFixture<CarritoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ContraseniaComponent ]
+      declarations: [ CarritoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ContraseniaComponent);
+    fixture = TestBed.createComponent(CarritoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
