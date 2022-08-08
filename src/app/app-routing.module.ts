@@ -9,7 +9,7 @@ import { CarritoComponent } from './Pages/carrito/carrito.component';
 import { Pagina404Component } from './Pages/pagina404/pagina404.component';
 import { InicioComponent } from './Pages/inicio/inicio.component';
 
-const router: Routes = [
+const routes: Routes = [
   {path: '', redirectTo: '/inicio', pathMatch: 'full'},
   {path: 'inicio', component: InicioComponent},
   {path: 'login', component: LoginComponent},

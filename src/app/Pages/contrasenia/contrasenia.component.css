@@ -74,9 +74,12 @@
     color: #000;
 }
 
+.link {
+    margin-top: 20px;
+}
+
 .login-box a {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 16px;
     color: darkgrey;
 }
 

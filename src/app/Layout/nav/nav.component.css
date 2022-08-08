@@ -3,7 +3,7 @@ nav{
     background-color: gray;
 }
 
-#active{
+.active{
     background-color: #272624c6;
     border-radius: 5px;
 }
