@@ -2,21 +2,22 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
-import { FooterComponent } from './footer.component';
 
-describe('FooterComponent', () => {
-  let component: FooterComponent;
-  let fixture: ComponentFixture<FooterComponent>;
+import { Pagina404Component } from './pagina404.component';
+
+describe('Pagina404Component', () => {
+  let component: Pagina404Component;
+  let fixture: ComponentFixture<Pagina404Component>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FooterComponent ]
+      declarations: [ Pagina404Component ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FooterComponent);
+    fixture = TestBed.createComponent(Pagina404Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
